@@ -20,5 +20,10 @@ namespace BeautyForestAgent
         {
             InitializeComponent();
         }
+
+        private void FormAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

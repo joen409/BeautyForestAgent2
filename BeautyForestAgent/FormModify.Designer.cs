@@ -55,6 +55,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "FormModify";
+            this.Load += new System.EventHandler(this.FormModify_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
